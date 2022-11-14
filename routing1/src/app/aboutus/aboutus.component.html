@@ -1,0 +1,12 @@
+<p>aboutus works!</p>
+
+<input type="text" [(ngModel)]="entry" /> <button (click)="addWord()">Add</button>
+
+<h3>List</h3>
+
+<div *ngFor="let next of words">
+    {{next}}
+</div>
+
+Example of how this list will reinitialize everytime you
+go to another "page" and back.
